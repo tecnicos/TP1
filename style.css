@@ -1,0 +1,89 @@
+body{
+  background-image: url(wave.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  
+  form {
+    width: 30%;
+    height: 350px;
+    padding: 8px 9px 25px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: none;
+  }
+  .input{
+    padding-right: 3%;
+    padding-top: 3%;
+    margin-top: 2%;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 93%;
+  }
+  form > div {
+    margin-top: 20px;
+  
+    padding-bottom: 9px;
+  }
+  span > label {
+    margin-right: 20%;
+    font-size: small;
+  }
+  a {
+    color: rgba(128, 128, 128, 0.4);
+  }
+  button {
+    background-color: rgb(74, 108, 246);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  .map{
+    width: 800px;
+    margin: 170px auto;
+}
+.mapping,.place{
+    display: inline-block;
+    vertical-align: top;
+}
+.place{
+    float: right;
+    font-weight: bolder;
+}
+.place-text{
+    padding-bottom: 0;
+}
+.address{
+    font-weight: normal;
+}
+.where{
+    font-size: x-large;
+    border-bottom: 0.1px solid;
+}
+.pink{
+ border: 0.1px solid;
+ padding: 3px 5px;
+ border-radius: 50%;
+ background-color: #BE418C;
+ color: white;
+}
+.orange{
+    border: 0.1px solid;
+ padding: 3px 5px;
+ border-radius: 50%;
+ background-color: #8C5E24;
+ color: white;
+}
+.mapping{
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
